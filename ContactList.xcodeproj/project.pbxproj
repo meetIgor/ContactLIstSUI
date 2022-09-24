@@ -11,6 +11,12 @@
 		AD246CDF28DE390F00D09B4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD246CDE28DE390F00D09B4D /* ContentView.swift */; };
 		AD246CE128DE391000D09B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD246CE028DE391000D09B4D /* Assets.xcassets */; };
 		AD246CE428DE391000D09B4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD246CE328DE391000D09B4D /* Preview Assets.xcassets */; };
+		AD246CEB28DE39E300D09B4D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD246CEA28DE39E300D09B4D /* DataManager.swift */; };
+		AD246CED28DE3A7500D09B4D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD246CEC28DE3A7500D09B4D /* Person.swift */; };
+		AD246CEF28DE500400D09B4D /* ContactCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD246CEE28DE500400D09B4D /* ContactCardView.swift */; };
+		AD246CF128DE520000D09B4D /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD246CF028DE520000D09B4D /* ContactsView.swift */; };
+		AD246CF328DE521100D09B4D /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD246CF228DE521100D09B4D /* NumbersView.swift */; };
+		AD246CF528DF06F600D09B4D /* PersonInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD246CF428DF06F600D09B4D /* PersonInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		AD246CDE28DE390F00D09B4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD246CE028DE391000D09B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD246CE328DE391000D09B4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD246CEA28DE39E300D09B4D /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		AD246CEC28DE3A7500D09B4D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		AD246CEE28DE500400D09B4D /* ContactCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCardView.swift; sourceTree = "<group>"; };
+		AD246CF028DE520000D09B4D /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		AD246CF228DE521100D09B4D /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
+		AD246CF428DF06F600D09B4D /* PersonInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,14 @@
 		AD246CDB28DE390F00D09B4D /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
+				AD246CF428DF06F600D09B4D /* PersonInfoView.swift */,
 				AD246CDC28DE390F00D09B4D /* ContactListApp.swift */,
 				AD246CDE28DE390F00D09B4D /* ContentView.swift */,
+				AD246CF028DE520000D09B4D /* ContactsView.swift */,
+				AD246CF228DE521100D09B4D /* NumbersView.swift */,
+				AD246CEE28DE500400D09B4D /* ContactCardView.swift */,
+				AD246CEA28DE39E300D09B4D /* DataManager.swift */,
+				AD246CEC28DE3A7500D09B4D /* Person.swift */,
 				AD246CE028DE391000D09B4D /* Assets.xcassets */,
 				AD246CE228DE391000D09B4D /* Preview Content */,
 			);
@@ -138,6 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD246CDF28DE390F00D09B4D /* ContentView.swift in Sources */,
+				AD246CEB28DE39E300D09B4D /* DataManager.swift in Sources */,
+				AD246CED28DE3A7500D09B4D /* Person.swift in Sources */,
+				AD246CF128DE520000D09B4D /* ContactsView.swift in Sources */,
+				AD246CF328DE521100D09B4D /* NumbersView.swift in Sources */,
+				AD246CF528DF06F600D09B4D /* PersonInfoView.swift in Sources */,
+				AD246CEF28DE500400D09B4D /* ContactCardView.swift in Sources */,
 				AD246CDD28DE390F00D09B4D /* ContactListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
