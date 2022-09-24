@@ -27,14 +27,6 @@ struct ContactsView: View {
 
 struct ContactsView_Previews: PreviewProvider {
     static var previews: some View {
-        ContactsView(contacts: [
-            Person(
-                name: "Name",
-                surname: "Surname",
-                email: "mail@mail.com",
-                phone: "89998887766"
-            )
-        ]
-        )
+        ContactsView(contacts: Person.getContactList())
     }
 }

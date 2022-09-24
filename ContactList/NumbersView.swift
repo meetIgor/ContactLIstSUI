@@ -15,8 +15,8 @@ struct NumbersView: View {
         NavigationStack {
             List(contacts) { contact in
                 Section(contact.fullname) {
-                    PersonInfoView(text: contact.phone, type: .phone)
-                    PersonInfoView(text: contact.email, type: .email)
+                    Label(contact.phone, systemImage: "phone")
+                    Label(contact.email, systemImage: "tray")
                 }
             }
             .navigationTitle("Contact List")
@@ -27,14 +27,6 @@ struct NumbersView: View {
 
 struct NumbersView_Previews: PreviewProvider {
     static var previews: some View {
-        NumbersView(contacts: [
-            Person(
-                name: "Name",
-                surname: "Surname",
-                email: "mail@mail.com",
-                phone: "9998887744"
-            )
-        ]
-        )
+        NumbersView(contacts: Person.getContactList())
     }
 }

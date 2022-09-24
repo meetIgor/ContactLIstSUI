@@ -19,8 +19,8 @@ struct ContactCardView: View {
                 .padding()
                 .frame( maxWidth: .infinity, maxHeight: 150)
             
-            PersonInfoView(text: person.phone, type: .phone)
-            PersonInfoView(text: person.email, type: .email)
+            Label(person.phone, systemImage: "phone")
+            Label(person.email, systemImage: "tray")
             
         }
         .navigationTitle(person.fullname)
@@ -29,11 +29,6 @@ struct ContactCardView: View {
 
 struct ContactView_Previews: PreviewProvider {
     static var previews: some View {
-        ContactCardView(person: Person(
-            name: "Name",
-            surname: "Surname",
-            email: "mail@mail.com",
-            phone: "9998887744")
-        )
+        ContactCardView(person: Person.getContactList().first!)
     }
 }
